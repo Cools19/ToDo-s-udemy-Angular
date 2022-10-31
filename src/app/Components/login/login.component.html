@@ -1,6 +1,6 @@
 <H1> Login !!</H1>
 
-<div>
+    
 User Name : <input type="text" name="username" placeholder="userId"[(ngModel)]="username">
 <br>
 <br>
@@ -9,7 +9,6 @@ Password : <input type="password" name="password" placeholder="credential"[(ngMo
 <br>
 <!-- username:{{username}} -->
 <button (click)=handleLogin() class="btn btn-success">login</button>
-</div>
+
 
 <div class="alert alert-warning" *ngIf='invalidLogin'>{{errorMessage}}</div>
-
