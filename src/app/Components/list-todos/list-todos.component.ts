@@ -74,7 +74,9 @@ deleteTodo(id){
 UpdateTodo(id){
   console.log(`update ${id}`)
   this.router.navigate(['todos',id])
-
+}
+addTodo(){
+  this.router.navigate(['todos',-1])
 
 }
 
